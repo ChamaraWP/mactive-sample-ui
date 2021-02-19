@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Oswald:wght@400;600&display=swap');
+@import '../src/variable-mixins.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Archivo", sans-serif;
+  font-size: 16px;
+  height: 100%;
+  overscroll-behavior-y: none; // mac overscroll behavioure
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+.header-gray{
+  color: $header-gray !important;
+}
+
+.small-font-size{
+  font-size: .8rem;
+}
+
+.link{
+  text-decoration: underline;
+}
+
+.small-font-size{
+  font-size: .95rem;
+}
+
+.smaller-font-size{
+  font-size: .8rem;
+}
+
+.bright-green{
+  color: $bright-Green;
+}
+
+.secondary-font{
+  font-family: 'Oswald', sans-serif;
+}

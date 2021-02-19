@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "fitness-web-app"
+  "defaultProject": "fitness-web-app",
+  "cli": {
+    "analytics": "e88dc2d5-d24c-4e0a-b509-00a0bf17f362"
+  }
 }

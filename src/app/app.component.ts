@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fitness-web-app';
+  isMenuOpen:boolean = false;
+
+  toggleMenu(value:boolean){
+    this.isMenuOpen = value;
+  }
+
+
 }

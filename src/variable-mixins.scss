@@ -1,0 +1,17 @@
+
+//color-variables
+$header-gray:#868686;
+$slightly-dakar-gray:#1C1C1C;
+$slightly-lighter-gray:#1B1B1B;
+$main-purple: #5D2AEE;
+$subHeading-Gray:#E0E0E0;
+$bright-Green:#3AFFB8;
+
+
+
+//mixin
+@mixin secondary-font($fsize:1rem,$fweight:500){
+    font-family: 'Oswald', sans-serif;
+    font-size: $fsize;
+    font-weight: $fweight;
+  }
